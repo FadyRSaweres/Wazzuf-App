@@ -1,0 +1,96 @@
+.search-space {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 20px;
+  width: 50%;
+  background-color: white;
+}
+
+.search {
+  display: inline-block;
+}
+
+.search input {
+  width: 100%;
+  height: 50px;
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.search input {
+  text-indent: 32px;
+  font-size: 20px;
+}
+.search .fa-search {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.search .fa-search {
+  left: auto;
+  right: 10px;
+}
+
+.job-list {
+  margin: 30px;
+}
+.search-section {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.search-history {
+  background-color: #d9d9d9;
+  min-height: 200px;
+  padding-left: 20px;
+  width: 100%;
+}
+.job-containers {
+  display: grid;
+  gap: 30px;
+  grid-column: 1 / 3;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.navLink {
+  color: black;
+}
+.list {
+  margin-top: 10px;
+}
+.emptyState-position {
+  display: flex;
+  justify-content: center;
+  grid-column: 1 / 3;
+}
+@media (max-width: 500px) {
+  .job-containers {
+    gap: 10px;
+    grid-template-columns: 100%;
+  }
+  .search {
+    width: 100%;
+  }
+  .job-list {
+    margin: 10px;
+  }
+  .search-section {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .auto-complete {
+    width: 90%;
+  }
+}

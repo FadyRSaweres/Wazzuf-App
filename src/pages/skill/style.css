@@ -1,0 +1,40 @@
+.skill-details-container {
+  padding: 20px;
+}
+.grid-skills {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.related-jobs-container {
+  background: white;
+  padding: 20px;
+  grid-column: 1 / 3;
+}
+.job-card {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-top: 20px;
+}
+.job-card .job-details {
+  display: flex;
+  justify-content: space-around;
+}
+.related-skills-container {
+  background-color: #d9d9d9;
+  min-height: 200px;
+  padding-left: 20px;
+  width: 100%;
+}
+.navLink {
+  color: black;
+}
+.list {
+  margin-top: 10px;
+}
+@media (max-width: 500px) {
+  .grid-skills {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}

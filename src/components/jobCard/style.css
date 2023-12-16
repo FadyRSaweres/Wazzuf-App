@@ -1,0 +1,24 @@
+.card-container {
+  padding: 20px;
+  background-color: white;
+}
+.skills-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.skill {
+  background-color: #c4c4c4;
+  border-radius: 5px;
+  height: 40px;
+}
+.skill-title {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#link {
+  color: black;
+}
